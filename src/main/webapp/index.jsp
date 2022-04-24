@@ -48,7 +48,7 @@
           </ul>
         </li>        
       </ul>
-      <form action="CreateAndFind" method="GET" class="d-flex">
+      <form action="ExecutaAlteraProfessor" method="post" class="d-flex">
         <input name="pesquisa" class="form-control me-2" type="search" placeholder="Digite o Nome" aria-label="Search">
         <button class="btn btn-outline-success" style="color:#0B5ED7; type="submit">Buscar</button>
       </form>
