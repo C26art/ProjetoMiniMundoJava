@@ -9,6 +9,8 @@ public class Turma {
 	
 	private Curso curso;
 	private Professor professor;
+	
+	
 	public long getId() {
 		return id;
 	}

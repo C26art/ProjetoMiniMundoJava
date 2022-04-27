@@ -17,11 +17,12 @@
  .navbar{
  		background-image: url(./img/Background.png);
  		padding-bottom:19px;
- }
+ } 
  
-  
  </style>
+  
 </head>
+
 <body style="background-color:#F8E0BF;">
 	<nav class="navbar navbar-expand-lg navbar-light" style="backgound-color:#FAAA7C">
   <div class="container-fluid">
@@ -32,7 +33,8 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" style="color:#0B5ED7;font-size:20px;" href="listarcurso.jsp" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cursos</a>
+          <a class="nav-link dropdown-toggle" style="color:#0B5ED7;font-size:20px;"
+           href="listarcurso.jsp" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cursos</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" style="color:#0B5ED7;" href="listarcurso.jsp">Alterar</a></li>           
             <li><hr class="dropdown-divider"></li>
@@ -40,13 +42,18 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" style="color:#0B5ED7;font-size:20px;" href="listarprofessor.jsp" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Professores</a>
+          <a class="nav-link dropdown-toggle" style="color:#0B5ED7;font-size:20px;"
+           href="listarprofessor.jsp" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Professores</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" style="color:#0B5ED7;" href="listarprofessor.jsp">Alterar</a></li>            
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" style="color:#0B5ED7;" href="listarprofessor.jsp">Excluir</a></li>
           </ul>
-        </li>        
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="color:#0B5ED7;font-size:20px;" 
+          href="login.jsp">Administrativo</a>         
+        </li>      
       </ul>
       <form action="ExecutaAlteraProfessor" method="post" class="d-flex">
         <input name="pesquisa" class="form-control me-2" type="search" placeholder="Digite o Nome" aria-label="Search">
@@ -84,16 +91,11 @@
 					<button class="btn btn-primary" type="reset">Limpar
 						Cadastro</button>
 			</form>			
-		</div>
-		
+		</div>		
 	</div>
 </div>
 
-	
-	
-	
 
-	
 	
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	
